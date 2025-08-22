@@ -1,6 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# ==========================
+# Node.js / Next.js
+# ==========================
 /node_modules
 /.pnp
 .pnp.*
@@ -32,10 +32,36 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+next-env.d.ts
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+
+# ==========================
+# PHP / XAMPP / Composer
+# ==========================
+vendor/
+composer.lock
+composer.phar
+
+# cache & logs
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# system files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# xampp specific
+htdocs/.idea/
+htdocs/.vscode/
